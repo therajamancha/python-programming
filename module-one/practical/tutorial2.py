@@ -1,10 +1,11 @@
+# string and its method
 name = 'Raj'
 char = "A"
 print(name, char)
 
 print( "I don't cheat")
 
-print ( 'I don\'t cheat' )
+print ( 'I don\'t cheat' ) # escape sequence
 
 flavour = input ("Enter a flavour : ")
 desert_type = input ("Enter you deser type : ")
