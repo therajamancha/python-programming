@@ -51,3 +51,6 @@ add_numbers = reduce(total,list_of_no)
 
 print(add_numbers)
 
+input_list = ['Santa Cruz','Santa fe','Mumbai','Delhi']
+check = lambda x : x if x[0] == "S" else " "
+count = len(list(map(check,input_list)).remove(" "))
